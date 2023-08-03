@@ -9,7 +9,7 @@ df = pd.read_excel('IRData.xlsx', engine="openpyxl", parse_dates= ['Effective Da
 #Plot
 x = df['Effective Date'].values
 y1 = df['Rate (%)'].values
-
+#asdasdasdasd
 ### Plot
 fig, ax = plt.subplots(1, 1, figsize=(10,5), dpi= 120)
 plt.plot(x, y1, color='tab:red')
